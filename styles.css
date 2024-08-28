@@ -88,7 +88,9 @@ main a:hover {
   height: 3rem;
   width: 32rem;
   background-color: transparent;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxz4NPQ9XDUHuqJi_JThUaWatwcuyTKWbXQ&s);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Background-Wallpaper-for-windows-1.png/1600px-Background-Wallpaper-for-windows-1.png?20231110211053);
+  background-size: cover;
+  background-position: center;
   position: fixed;
   bottom: 3rem;
   display: flex;
@@ -99,8 +101,9 @@ main a:hover {
 .sticky-footer h5,
 h6 {
   text-align: center;
-  margin-top: 5px;
-  color: rgb(225, 71, 93);
+  color: rgb(234, 203, 210);
+  text-shadow: 2px 2px rgb(225, 71, 93);
+  font-size: 0.87rem;
 }
 
 .btn {
