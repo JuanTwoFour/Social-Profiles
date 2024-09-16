@@ -84,28 +84,6 @@ main a:hover {
   color: rgb(234, 203, 210);
 }
 
-.sticky-footer {
-  height: 3.25rem;
-  width: 32rem;
-  background-color: transparent;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Background-Wallpaper-for-windows-1.png/1600px-Background-Wallpaper-for-windows-1.png?20231110211053);
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  bottom: 3rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.sticky-footer h5,
-h6 {
-  text-align: center;
-  color: rgb(234, 203, 210);
-  text-shadow: 2px 2px rgb(225, 71, 93);
-  font-size: 0.87rem;
-}
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -118,9 +96,4 @@ h6 {
   border-radius: 1.25rem;
   transition: ease-in-out 0.3s;
   color: rgb(225, 71, 93);
-}
-
-.sticky-footer .btn:hover {
-  background-color: rgb(225, 71, 93);
-  color: hsl(0, 0%, 12%);
 }
